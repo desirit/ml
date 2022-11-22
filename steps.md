@@ -1,3 +1,6 @@
+Prerequisite: 
+* PIP3
+  - Install using `sudo apt-get install python3-pip`
 - Step1: Run "pip3 install transformers==4.6.1"
 - step2: RUN "pip3 install torch==1.9.0"
 - Step3: RUN "python3 summarization.py"
