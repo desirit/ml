@@ -37,7 +37,7 @@ def get_summary(t,tokenizer_summary,model_summary):
 
 @app.get('/')
 async def home():
-    return {"message": "Hello World"}
+    return {"message": "This is working!"}
 
 @app.post("/summary")
 async def getsummary(user_request_in: SummaryRequest):
